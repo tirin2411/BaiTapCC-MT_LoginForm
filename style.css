@@ -12,7 +12,7 @@ body {
     width: 500px;
     padding: 16px;
     margin: 0 auto;
-    background-color: white;
+    background-color: pink;
     }
     input[type=text], input[type=password] {
     width: 100%;
@@ -31,7 +31,7 @@ body {
     margin-bottom: 25px;
     }
     .submit {
-    background-color: #0900bd;
+    background-color: black;
     color: white;
     padding: 15px 18px;
     margin: 8px 0;
