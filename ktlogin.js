@@ -1,6 +1,6 @@
 function validate() {
-    var u = document.getElementById("username").value;
-    var p = document.getElementById("password").value;
+    var u = document.getElementById("txtusername").value;
+    var p = document.getElementById("txtpassword").value;
       
     if(u== "") {
         alert("Vui lòng nhập tên đăng nhập!");
@@ -11,9 +11,10 @@ function validate() {
         return false;
     }
     else if(u=="admin" && p=="admin"){
-        alert("Đăng nhập thành công! Xin chào "+u+"!");
+        window.location='/home.html';
     }
-    else
-    alert("Đăng nhập không thành công!");
-    return true;
+    else{
+        alert("Đăng nhập không thành công!");
+        return false;
+    }
 }
